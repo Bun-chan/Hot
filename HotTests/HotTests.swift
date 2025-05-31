@@ -1,10 +1,3 @@
-//
-//  HotTests.swift
-//  HotTests
-//
-//  Created by STEPHEN FITZGERALD on 2025/05/31.
-//
-
 import XCTest
 @testable import Hot
 

@@ -1,10 +1,3 @@
-//
-//  HotUITestsLaunchTests.swift
-//  HotUITests
-//
-//  Created by STEPHEN FITZGERALD on 2025/05/31.
-//
-
 import XCTest
 
 final class HotUITestsLaunchTests: XCTestCase {

@@ -1,17 +1,13 @@
-//
-//  HotApp.swift
-//  Hot
-//
-//  Created by STEPHEN FITZGERALD on 2025/05/31.
-//
-
 import SwiftUI
 
 @main
 struct HotApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let repository = WeatherRepositoryImpl()
+            let useCase = WeatherUseCaseImpl(weatherRepository: repository)
+            let viewModel = WeatherViewModel(useCase: useCase)
+            ContentView(viewModel: viewModel)
         }
     }
 }
